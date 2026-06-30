@@ -1,0 +1,27 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "A simple REST API built using Node.js and the built-in HTTP module.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangramuskaan629-cell/nodejs-task-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangramuskaan629-cell/nodejs-task-manager/issues"
+  },
+  "homepage": "https://github.com/jangramuskaan629-cell/nodejs-task-manager#readme",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
